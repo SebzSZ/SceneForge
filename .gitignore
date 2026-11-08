@@ -1,0 +1,37 @@
+# --- Compilación ---
+build/
+out/
+cmake-build-*/
+
+# --- Archivos de CMake ---
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+compile_commands.json
+CMakeUserPresets.json
+
+# --- Binarios y objetos ---
+*.exe
+*.o
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+
+# --- Editores e IDEs ---
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+
+# --- Sistema operativo ---
+.DS_Store
+Thumbs.db
